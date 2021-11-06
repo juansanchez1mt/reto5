@@ -1,0 +1,87 @@
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+.bici-style {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    display: none;
+}
+
+
+.bici-style2 {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 400px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.bici-style::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btncenter{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#tabla_registrar{
+
+    display: none;
+}
+
+
+
+
+#tabla_registrar_bike{
+
+    display: none;
+}
+
+
+#tabla_registrar_Mensajes{
+
+    display: none;
+}
+
+
