@@ -1,5 +1,5 @@
-//let server = "http://140.238.152.87:8080";
-let server = "http://localhost:8080";
+let server = "http://140.238.152.87:8080";
+//let server = "http://localhost:8080";
 let categoriaList;
 function traerInformacionBikes() {
     $.ajax({
